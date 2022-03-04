@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+    <title>React</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <img id="reactlogo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"
+            alt="">
+        <h1>React JS</h1>
+        <p>введение и обзор</p>
+        <a href="https://ru.reactjs.org/"><button>официальный сайт</button> </a>
+    </header>
+
+    <section>
+        <h2>Описание</h2>
+        <p> <strong>React</strong> — это JavaScript библиотека, которая ставит своей целью упрощение разработки визуальных интерфейсов.
+            <br>
+            <br> <strong>React</strong> — это инструмент для создания пользовательских интерфейсов. Его главная задача — обеспечение вывода на экран того, что можно видеть на веб-страницах. React значительно облегчает создание интерфейсов благодаря разбиению
+            каждой страницы на небольшие фрагменты. Мы называем эти фрагменты компонентами.</p>
+
+        <h3>Составляющие сервиса</h3>
+        <ul>
+            <li><strong>Элементы</strong> — это объекты JavaScript, которые представляют HTML-элементы. Их не существуют в браузере. они описывают DOM-элементы, такие как h1, div, или section.</li>
+            <li><strong>Компоненты </strong> — это элементы React, написаные разработчиком. Обычно это части пользовательского интерфейса, которые содержат свою структуру и функциональность. Например, такие как NavBar, LikeButton, или ImageUploader.</li>
+            <li><strong>JSX</strong> — это техника создания элементов и компонентов React. С JSX требуется гораздо меньше усилий, он трансформируется в JavaScript перед запуском в браузере.</li>
+            <li><strong>Virtual DOM</strong> — это дерево React элементов на JavaScript. React отрисовывает Virtual DOM в браузере, чтоб сделать интерфейс видимым. React следит за изменениями в Virtual DOM и автоматически изменяет DOM в браузере так, чтоб
+                он соответствовал виртуальному.
+            </li>
+        </ul>
+        <h3>Преимущества сервиса</h3>
+        <ul>
+            <li>Вы всегда можете сказать, как ваш компонент будет отрисован, глядя на исходный код. Это может быть важным преимуществом, хотя это ничем не отличается от шаблонов Angular.</li>
+            <li>Связывание JavaScript и HTML в JSX делает компоненты простыми для понимания. Обычно вы разделяете представления (HTML) и функциональность (JavsScript). Это приводит к монолитному JavaScript файлу, содержащему всю функциональность для одной
+                страницы, и вы должны следить за сложным потоком JS->HTML->JS. Связывание функциональности напрямую с разметкой и упаковка этого в портативный, автономный «компонент», сделает ваш код лучше в целом. Ваш Javasacript «хорошо знаком» с вашим
+                HTML, так что смешивать их имеет смысл.
+            </li>
+            <li>Вы можете рендерить React на сервере. Если вы разрабатывает публичный сайт или приложение, и вы рендерите все на клиенте, то вы выбрали неправильный путь. Клиентский рендеринг — это причина, почему SoundCloud работает медленно, и почему Stack
+                Overflow (используя только серверный рендеринг) работает так быстро. Вы можете рендерить React на сервере, и вам следует выбрать именно этот путь.</li>
+            <li>Благодаря переиспользованию кода стало гораздо проще создавать мобильные приложения. Код, который был написан во время создания сайта, может быть снова использован для создания мобильного приложения. Если вы планируете использовать не только
+                сайт, но и мобильное приложение, нет необходимости нанимать две большие команды разработчиков.</li>
+        </ul>
+
+
+
+        <h2>Аналоги и альтернативы для React JS</h2>
+
+        <nav>
+            <ul>
+                <li>
+                    <h3><a href="https://angular.io/">Angular JS</a></h3>
+                    <img src="https://angular.io/assets/images/logos/angular/logo-nav@2x.png" alt="logo" title="angular">
+                </li>
+
+                <li>
+                    <h3><a href="https://ru.vuejs.org/">Vue JS</a></h3>
+                    <img src="https://ru.vuejs.org/images/logo.png" alt="logo" title="vue">
+                </li>
+                <li>
+                    <h3><a href="https://bizzapps.ru/p/svelte/">Svelte JS</a></h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="logo" title="svelte">
+                </li>
+
+            </ul>
+        </nav>
+    </section>
+    <footer>
+        <a href="#" class="topbutton"><button id="start">в начало</button></a>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
